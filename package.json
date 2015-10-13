@@ -1,0 +1,24 @@
+{
+  "name": "mksubdir",
+  "version": "0.1.0",
+  "description": "Simple way to make directory recusively in nodejs",
+  "keywords": [
+    "mkdir",
+    "directory",
+    "fs",
+    "recursive"
+  ],
+  "author": "Ryan Liao <pirsquare.ryan@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pirsquare/node-mksubdir.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --recursive"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  }
+}
